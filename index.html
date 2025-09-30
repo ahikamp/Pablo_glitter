@@ -1,8 +1,242 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pablo Glitter Boutique</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="top-bar">
+      <div class="brand">
+        <span class="brand-sparkle">✶</span>
+        <span class="brand-name">Pablo Glitter Boutique</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#collections">Collections</a>
+        <a href="#about">About</a>
+        <a href="#testimonials">Glow Stories</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="cta" href="#shop">Shop Now</a>
+    </header>
+
+    <main>
+      <section class="hero" id="shop">
+        <div class="hero-content">
+          <h1>Illuminate Every Look with Glitter Magic</h1>
+          <p>
+            From soft shimmer to bold sparkle, discover vegan, skin-safe glitter
+            blends crafted to make you shine at every event.
+          </p>
+          <div class="hero-actions">
+            <a class="primary" href="#collections">Explore Collections</a>
+            <a class="secondary" href="#newsletter">Get the Lookbook</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orb orb-1"></div>
+          <div class="orb orb-2"></div>
+          <div class="orb orb-3"></div>
+        </div>
+      </section>
+
+      <section class="badges" aria-label="Brand highlights">
+        <div class="badge">Cruelty-Free</div>
+        <div class="badge">Biodegradable Options</div>
+        <div class="badge">Free Shipping $60+</div>
+        <div class="badge">Made in Argentina</div>
+      </section>
+
+      <section class="collections" id="collections">
+        <header class="section-heading">
+          <span class="eyebrow">Our Collections</span>
+          <h2>Find the Glitter That Matches Your Mood</h2>
+          <p>
+            Curated sets and single shades for festivals, performances, and
+            everyday radiance. Choose your sparkle story.
+          </p>
+        </header>
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-image product-image--aurora"></div>
+            <h3>Aurora Boreal Kit</h3>
+            <p>
+              Iridescent pastels that glow from every angle. Includes mixing gel
+              and application brush.
+            </p>
+            <span class="price">$39.90</span>
+            <a class="product-link" href="#">Add to cart</a>
+          </article>
+          <article class="product-card">
+            <div class="product-image product-image--midnight"></div>
+            <h3>Midnight Rebel</h3>
+            <p>
+              Charcoal and sapphire micro-glitters for dramatic looks that last
+              all night.
+            </p>
+            <span class="price">$24.50</span>
+            <a class="product-link" href="#">Add to cart</a>
+          </article>
+          <article class="product-card">
+            <div class="product-image product-image--sunrise"></div>
+            <h3>Sunrise Festival Trio</h3>
+            <p>
+              Warm sunset tones with chunky accents to reflect the energy of the
+              crowd.
+            </p>
+            <span class="price">$32.00</span>
+            <a class="product-link" href="#">Add to cart</a>
+          </article>
+          <article class="product-card">
+            <div class="product-image product-image--opulence"></div>
+            <h3>Opulence Pro Pack</h3>
+            <p>
+              Five luxe metallics for makeup artists and performers who demand
+              the richest sparkle.
+            </p>
+            <span class="price">$58.00</span>
+            <a class="product-link" href="#">Add to cart</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="story" id="about">
+        <div class="story-content">
+          <h2>Designed with Artists, Loved by Everyone</h2>
+          <p>
+            We partner with dancers, drag performers, and makeup artists to
+            create glitter that inspires confidence. Every blend is
+            dermatologist-tested, easy to remove, and arrives in recyclable
+            packaging.
+          </p>
+          <ul>
+            <li>Custom glitter lab for limited-edition runs</li>
+            <li>Workshops and livestream tutorials every month</li>
+            <li>Wholesale pricing for studios and retailers</li>
+          </ul>
+          <a class="primary" href="#contact">Request a custom mix</a>
+        </div>
+        <div class="story-gallery">
+          <figure class="story-card">
+            <div class="story-image story-image--studio"></div>
+            <figcaption>Hand-blended in our Buenos Aires studio</figcaption>
+          </figure>
+          <figure class="story-card">
+            <div class="story-image story-image--runway"></div>
+            <figcaption>Seen on runways &amp; music festivals worldwide</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="testimonials" id="testimonials">
+        <header class="section-heading">
+          <span class="eyebrow">Glow Stories</span>
+          <h2>What Our Community Says</h2>
+        </header>
+        <div class="testimonial-grid">
+          <blockquote class="testimonial">
+            <p>
+              “The Aurora kit is my go-to for bridal clients. It photographs like
+              a dream.”
+            </p>
+            <cite>— Luisa, makeup artist</cite>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p>
+              “Finally, glitter that doesn’t irritate my skin. The biodegradable
+              line is a festival essential.”
+            </p>
+            <cite>— Dani, festival performer</cite>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p>
+              “Love the color stories and the tutorials that come with every
+              purchase.”
+            </p>
+            <cite>— Marina, content creator</cite>
+          </blockquote>
+        </div>
+      </section>
+
+      <section class="newsletter" id="newsletter">
+        <div class="newsletter-inner">
+          <h2>Join the Glitter Gazette</h2>
+          <p>
+            Receive early access to product drops, backstage passes to live
+            masterclasses, and styling tips delivered weekly.
+          </p>
+          <form class="newsletter-form">
+            <label class="sr-only" for="email">Email address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your email"
+              required
+            />
+            <button type="submit">Subscribe</button>
+          </form>
+          <p class="disclaimer">
+            We respect your glow. Unsubscribe anytime with a single click.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="footer-top">
+        <div>
+          <h3>Pablo Glitter Boutique</h3>
+          <p>
+            Av. Corrientes 1234, CABA<br />
+            hola@pabloglitter.com<br />
+            +54 11 5555 1234
+          </p>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="#collections">Best Sellers</a></li>
+            <li><a href="#collections">Limited Editions</a></li>
+            <li><a href="#collections">Accessories</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Follow</h4>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">TikTok</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Wholesale</h4>
+          <p>Contact us for studio bundles and private label options.</p>
+          <a class="secondary" href="mailto:wholesale@pabloglitter.com"
+            >Email wholesale team</a
+          >
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Pablo Glitter Boutique. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const yearEl = document.getElementById("year");
+      const now = new Date();
+      yearEl.textContent = now.getFullYear();
+    </script>
+  </body>
 </html>
